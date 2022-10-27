@@ -1,0 +1,7 @@
+This repository provides a copy of the code used to produce the manuscript “Barrington et al. (2022) Wind speed as a dominant source of periodicities in reported emission rates of volcanic SO2” together with a user-friendly section of code which enables implementation of the method used in this paper.
+
+Code is written in MATLAB using version R2021a (MathsWorks, 2019) and utilises several in-built functions including the ‘plomb’ function to produce Lomb-Scargle Periodograms. This function requires the Signal Processing Toolbox; Spectral Analysis Toolbox. For further details see: https://www.mathworks.com/help/signal/ref/plomb.html. 
+
+The full method can be found in Section 2 (and Appendix B) of the paper. The ‘MasterScript’ uploaded here is the code used to produce this manuscript and has been provided to in the interest of research integrity. This version of the code is not thoroughly commented nor is it free of redundancies. Figures produced using this code have been modified and formatted independently but the data unchanged. 
+
+Snippets of this code have been re-written in order to provide a user-friendly option for those wishing to apply similar analysis to their own datasets. Although it is not intended as a stand-alone code it includes functions for applying the bootstrap approach, plotting the Lomb-Scragle periodogram and comparing the PSD estimates between two variables. These functions differ slightly from those used in the MasterScript to eradicate redundancies, the analysis procedure is the same however. 
